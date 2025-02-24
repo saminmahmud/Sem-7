@@ -59,3 +59,23 @@ int main(){
 
   return 0;
 }
+
+
+
+// recursive solution
+// int binarySearch(int arr[], int l, int r, int t){
+//     if(l > r){
+//         return -1;  
+//     }
+//     int mid = l + (r - l) / 2;
+
+//     if(arr[mid] == t){
+//         return mid;
+//     }
+//     else if(arr[mid] > t){
+//         binarySearch(arr, l, mid-1, t);
+//     }
+//     else{
+//         binarySearch(arr, mid+1, r, t);
+//     }
+// }
